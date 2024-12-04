@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "bucket1" {
 }
 
 resource "aws_s3_bucket" "bucket2" {
-    
+    bucket = "github-demo-first-bucket"
 }
 
 provider "aws" {
